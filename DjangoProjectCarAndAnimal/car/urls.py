@@ -1,5 +1,5 @@
 from django.urls import path
-from car import views
+from DjangoProjectCarAndAnimal.car import views
 
 urlpatterns = [
     path('', views.SelectCarView.as_view(), name="SelectAllCars"),
